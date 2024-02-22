@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Uses of div and span element.
+        </title>
+    </head>
+  <body>
+
+    <h3>Uses of &Itspan&gt element</h3>
+    <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+    
+    <hr color="deepred" width="25%" align="left">
+
+    <h3>Uses of &Itdiv&gt element</h3>
+
+    <div id="mydiv" style="background-color:aliceblue;padding:20px;width:300px;height:200px;">
+          <p align="center"><h4><span style="color:red"> Dear student!</span></h4></p>
+          <p align="justify">you can leanr easily any programming languagae if you do practice regularly with good understanding  in any programming language 
+            there areis no short cut way to learn programming language.
+          </p>
+    </div>
+
+    <button onclick="toggle();">Click ! see the Result</button>
+    <script>
+        let toggle = () =>
+        {
+            let element = document.getElementById("mydiv");
+          if (element.style.backgroundColor === "aliceblue")
+            {
+                element.style.backgroundColor = "moccasin";
+            }
+          else
+            {
+                element.style.backgroundColor = "aliceblue";
+            }
+        }
+    </script>
+  </body>  
+</html>
