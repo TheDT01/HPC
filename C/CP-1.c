@@ -12,7 +12,7 @@ int main()
     printf("Enter 2nd Number: ");
     scanf("%d",&y);
 
-    sum= x+y;
+    sum= x-y;
     avg= sum/2;
     
     printf("sum=%d\n", sum);
